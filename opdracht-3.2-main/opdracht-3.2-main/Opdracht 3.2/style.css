@@ -1,0 +1,16 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgb(130, 106, 251);
+    }
+    .container{
+        position: relative;
+        max-width: 500px;
+        width: 100%;
+        background: #faf9f9;
+        border-radius: 6px;
+        text-align: center;
+    }

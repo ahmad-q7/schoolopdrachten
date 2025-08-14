@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TUI Boekingsformulier</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="container">
+    <h1>Boek jouw droomvakantie!</h1>
+    <form id="bookingForm">
+        <label for="firstName">Voornaam:</label>
+        <input type="text" id="firstName" name="firstName" pattern="[a-zA-Z]+" required placeholder="Vul je naam in">
+          <br>
+        <label for="lastName">Achternaam:</label>
+        <input type="text" id="lastName" name="lastName" pattern="[a-zA-Z]+" required placeholder="Vul je achternaam in">
+          <br>
+        <label for="gender">Geslacht:</label>
+        <input type="radio" id="male" name="gender" value="male" checked>
+        <label for="male">Man</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Vrouw</label>
+         <br>
+        <label for="street">Straat met huisnummer:</label>
+        <input type="text" id="street" name="street" required placeholder="Vul de straat naam en huisnummer in">
+         <br>
+        <label for="postalCode">Postcode:</label>
+        <input type="text" id="postalCode" name="postalCode" required placeholder="Vul je postalcode in">
+         <br>
+        <label for="city">Stad:</label>
+        <input type="text" id="city" name="city" required placeholder="Vul je de naam van de stad">
+         <br>
+        <label for="country">Land:</label>
+        <input type="text" id="country" name="country" required placeholder="Jou land">
+         <br>
+        <label for="bsn">BSN-nummer:</label>
+        <input type="number" id="bsn" name="bsn" maxlength="9" placeholder="Vul je BSN">
+          <br>
+        <label for="destination">Vakantieland:</label>
+        <select id="destination" name="destination" required>
+            <option value="spain">Spanje</option>
+            <option value="greece">Griekenland</option>
+            <option value="italy">Italië</option>
+            </select>
+            <br>
+        <label for="departureDate">Vertrekdatum:</label>
+        <input type="date" id="departureDate" name="departureDate" required>
+            <br>
+        <label for="returnDate">Terugkomstdatum:</label>
+        <input type="date" id="returnDate" name="returnDate" required>
+            <br>
+        <label for="numTravelers">Aantal reisgenoten:</label>
+        <input type="number" id="numTravelers" name="numTravelers" min="0" max="4" required>
+            <br>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required placeholder="Vul je mail in">
+            <br>
+        <label for="password">Wachtwoord:</label>
+        <input type="password" id="password" name="password" required placeholder="Vul je wachtwoord in">
+            <br>
+        <button type="submit">Boek nu</button>
+    </form>
+</section>
+</body>
+</html>
