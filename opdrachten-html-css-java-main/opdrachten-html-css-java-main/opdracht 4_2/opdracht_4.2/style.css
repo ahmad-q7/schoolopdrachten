@@ -1,0 +1,57 @@
+
+header {
+    width: 90vw;
+    height: 40vh; 
+    background-color: lightblue; 
+    padding: 20px;
+}
+
+
+header h1 {
+    color: darkblue; 
+    font-size: 28px;
+    font-weight: bold;
+}
+
+header p {
+    color: white; 
+    font-size: 18px;
+}
+
+
+p {
+    background-color: lightgray; 
+    color: black; 
+    padding: 10px;
+    border-radius: 8px;
+}
+
+
+img {
+    width: 50vw;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+}
+
+article {
+    border: 2px solid black; 
+    border-radius: 15px; 
+    padding: 15px;
+    margin: 15px 0;
+}
+
+
+article {
+    border-left: 5px solid darkred; 
+}
+
+
+a {
+    color: #8a2be2;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
